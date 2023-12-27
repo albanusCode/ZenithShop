@@ -10,8 +10,8 @@ const Cartdropdown = () => {
     <div className='cart-dropdown-container'>
         <div className='cart-items'>
           {cartItems.map(item => <CartItem key={item.id} cartItem={item}/>)}
-            <Button>Go to checkout</Button>
         </div>
+        <Button>Go to checkout</Button>
     </div>
   )
 }

@@ -20,11 +20,27 @@
       height: 240px;
       display: flex;
       flex-direction: column;
-      overflow: scroll;
+      overflow-y: scroll; /* Use 'scroll' to enable scrolling */
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+    
+    .cart-items::-webkit-scrollbar {
+      width: 1px;
+    }
+    
+    .cart-items::-webkit-scrollbar-thumb {
+      background-color: transparent;
+      border-radius: 5px;
+    }
+    
+    .cart-items::-webkit-scrollbar-track {
+      background-color: lightgray;
     }
   
     button {
       margin-top: auto;
+      padding: 10px;
+      align-items: center;
+      box-sizing: border-box;
     }
-  }
-  
+  }  
