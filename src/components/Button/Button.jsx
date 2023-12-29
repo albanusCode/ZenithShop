@@ -5,6 +5,7 @@ import './Button.scss'
 const BUTTON_TYPE_CLASSES = {
     google: 'google-sign-in',
     inverted: 'inverted',
+    shop: 'shop',
 };
 const Button = ({children, buttonType, ...otherprops}) => {
   return (
