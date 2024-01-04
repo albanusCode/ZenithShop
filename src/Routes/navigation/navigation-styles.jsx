@@ -3,7 +3,7 @@
 
  export const NavigationContainer = styled.div`
   height: 45px;
-  background-color: pink;
+  background-color: green;
   width: 100%;
   display: flex;
   justify-content: space-between;
